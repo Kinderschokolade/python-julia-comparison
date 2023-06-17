@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-julia-comparison"
+version = "0.1.0"
+description = ""
+authors = ["Fabian Busch, Marius Bause"]
+readme = "README.md"
+packages = [{include = "python_julia_comparison"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
