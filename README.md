@@ -14,11 +14,12 @@ Zudem will ich auf deinem M1 und auf meinem i7/GTX 3060 setup testen.
 
 ## Assumptions
 * The random number generation time is included in each process
+* We assume that we implemented the most efficient implementation
 
 
 ## Example Output
 ```
-./run_test.sh         1 ↵
+./run_test.sh
 Python runtime for add: 7000.829 ms
 Julia runtime for add: 224.495 ms
 
