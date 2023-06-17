@@ -4,10 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["Fabian Busch, Marius Bause"]
 readme = "README.md"
-packages = [{include = "python_julia_comparison"}]
+packages = [
+  {include = "src"},
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pyyaml = "^6.0"
 
 
 [build-system]
